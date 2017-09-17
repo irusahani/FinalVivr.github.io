@@ -1,0 +1,146 @@
+#board{
+    background-color: grey;
+    height: 700px;
+    width: 700px;
+    border: black;
+}
+
+.col-xs-1{
+    height: 70px;
+    width: 70px;
+}
+
+.tile{
+    top: 20px;
+}
+
+img{
+    position: absolute;
+    height: 55px;
+    width: 60px;
+    left: 6px;
+    top: 5px;
+    z-index: 9999;
+}
+
+.img:hover{
+    position: absolute;
+    height: 60px;
+    width: 65px;
+    left: 4px;
+    top: 5px;
+    z-index: 9999;
+
+}
+
+#topic{
+    height: 75px;
+    color: red;
+    font-style: inherit;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+
+    border-color: #0f0f0f;
+    animation-name: first-animation;
+    animation-duration: 5000ms;
+    animation-iteration-count: 1;
+
+}
+
+
+
+@keyframes first-animation {
+    0%{
+        width: 200px;
+        opacity: 0.1;
+        font-size: 30px;
+        text-align: center;
+        background-color: red;
+    }
+    25%{
+        width: 400px;
+        opacity: 0.2;
+        font-size: 30px;
+        text-align: center;
+        background-color: white;
+    }
+    50%{
+        width: 400px;
+        opacity: 0.5;
+        font-size: 30px;
+        text-align: center;
+        background-color: #2aabd2;
+    }
+    75%{
+        width: 400px;
+        opacity: 0.1;
+        font-size: 30px;
+        text-align: center;
+        background-color: #e38d13;
+    }
+    100%{
+        width: 450px;
+        opacity: 0.1;
+        font-size: 30px;
+        text-align: center;
+        background-color: springgreen;
+    }
+}
+
+
+
+
+
+/*#scoreboard{*/
+    /*height: 700px;*/
+    /*width: 335px;*/
+    /*background-color: #8c8c8c;*/
+    /*border: groove;*/
+    /*border-color: #0f0f0f;*/
+/*}*/
+
+/*#scoreboard1{*/
+    /*height: 700px;*/
+    /*width: 343px;*/
+    /*background-color: #8c8c8c;*/
+    /*border: groove;*/
+    /*border-color: #0f0f0f;*/
+/*}*/
+
+/*#score{*/
+    /*height: 70px;*/
+    /*color: white;*/
+    /*background-color: #0f0f0f;*/
+    /*text-align: center;*/
+    /*font-size: 35px;*/
+    /*font-style: oblique;*/
+    /*border-bottom: groove;*/
+    /*border-bottom-color: white;*/
+    /*border-top: groove;*/
+    /*border-top-color: white;*/
+/*}*/
+/*#score1{*/
+    /*height: 70px;*/
+    /*color: white;*/
+    /*background-color: #0f0f0f;*/
+    /*text-align: center;*/
+    /*font-size: 35px;*/
+    /*font-style: oblique;*/
+    /*border-bottom: groove;*/
+    /*border-bottom-color: white;*/
+    /*border-top: groove;*/
+    /*border-top-color: white;*/
+
+/*}*/
+.selectpath{
+    box-shadow: inset 0px 0px 6px 10px orangered;
+}
+
+.clickpiece{
+    box-shadow: inset 0px 0px 6px 10px darkorchid;
+}
+
+.crosspiece{
+    box-shadow: inset 0px 0px 6px 10px blue;
+}
