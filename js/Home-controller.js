@@ -1166,8 +1166,7 @@ function pathofWhitepond(eventData) {
      }
 }
 
-var IdW=$("#RowB").children().first().attr('id');
-var IdB=$("#RowA").children().first().attr('id');
+
 var rotateC=0;
 
 function rotate() {
